@@ -198,3 +198,41 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Styles for filter/search/sort controls */
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-container label {
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+.filter-container select,
+.filter-container input[type="text"] {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.filter-container button {
+  background-color: #1a237e;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.filter-container button:hover {
+  background-color: #3949ab;
+}
